@@ -1,0 +1,9 @@
++bgm
+	|bgm_guyrock
+	|bgm_ondeath
++sfx
+	|snd_jump
+	|snd_djump
+	|snd_shoot
+	|snd_death
+	|snd_walljump

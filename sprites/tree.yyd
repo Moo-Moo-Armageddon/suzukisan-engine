@@ -1,0 +1,56 @@
++world
+	|sprBlock
+	|sprWorld
+	|sprMusicPlayer
+	|sprKillerParent
+	|sprRoomChanger
+	|sprWarp
+	|sprControlButton
+	|sprCamera
+	|sprGameOver
+	|sprSave
+	|sprWussSave
+	|sprVHSave
+	|sprSaveBlocker
+	|sprPlatform
+	|sprSign
++player
+	|sprPlayerStart
+	|sprPlayerIdle
+	|sprPlayerRun
+	|sprPlayerJump
+	|sprPlayerFall
+	|sprPlayerSlide
+	|sprPlayerBullet
+	|sprPlayerMask
+	|sprBow
+	|sprBlood
++killers
+	|sprSpikeUp
+	|sprSpikeDown
+	|sprSpikeLeft
+	|sprSpikeRight
+	+cherries
+		|sprCherry
++gimmicks
+	|sprMovingPlatform
+	|sprVineL
+	|sprVineR
+	|sprGravityUp
+	|sprGravityDown
+	|sprJumpRefresher
+	|sprWater1
+	|sprWater2
+	|sprWater3
++trigger
+	|sprTriggerField
+	|sprTriggerButton
+	|sprTriggerModifyer
+	|sprTriggerMove
+	|sprTriggerSpeed
+	|sprTriggerScale
+	|sprTriggerRotate
+	|sprTriggerCreate
+	|sprTriggerDelete
+	|sprTriggerCode
+	|sprTriggerActivate

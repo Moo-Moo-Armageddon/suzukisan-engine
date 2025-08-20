@@ -1,0 +1,9 @@
++init
+	|rInit
+	|rTitle
+	|rFiles
+	|rDifficultySelect
+	|rOptionsSelect
++sample
+	|rSampleA
+	|rSampleB

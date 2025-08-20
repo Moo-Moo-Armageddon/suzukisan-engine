@@ -1,0 +1,55 @@
+|block
++player
+	|playerStart
+	|player
+	|playerBullet
+	|blood
+	|bloodEmitter
+	|camera
+	|smoothCamera
+	|gameOver
+	|playerBow
++world
+	|world
+	|musicPlayer
+	|platform
+	|kanban
++killers
+	|killerParent
+	|cherry
+	|spikeUp
+	|spikeDown
+	|spikeLeft
+	|spikeRight
++menu
+	|titleController
+	|fileController
+	|controlButton
++warps
+	|roomChanger
+	|warp
+	|warpStart
++saves
+	|saveImpossible
+	|saveVeryHard
+	|saveHard
+	|saveMedium
+	|saveBlocker
++gimmicks
+	|movingPlatform
+	|vineLeft
+	|vineRight
+	|gravityUp
+	|gravityDown
+	|jumpRefresher
+	|water1
+	|water2
+	|water3
++triggers
+	|triggerField
+	+modifiers
+		|modifierParent
+		|modifierMove
+		|modifierSpeed
+		|modifierScale
+		|modifierRotate
