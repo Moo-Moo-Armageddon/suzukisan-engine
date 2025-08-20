@@ -7,3 +7,6 @@
 	|snd_shoot
 	|snd_death
 	|snd_walljump
+	|snd_blockchange
+	|snd_spiketrap
+	|snd_bosshit

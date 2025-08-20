@@ -6,3 +6,6 @@ bgm_guyrock
 snd_death
 bgm_ondeath
 snd_walljump
+snd_blockchange
+snd_spiketrap
+snd_bosshit
