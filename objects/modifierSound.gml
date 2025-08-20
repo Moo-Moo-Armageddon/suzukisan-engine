@@ -46,3 +46,7 @@ event_inherited()
   //field pitch: number
   //field loops: false
   //field music: false
+
+/*desc
+Play sounds or music when the trigger is active!
+*/
