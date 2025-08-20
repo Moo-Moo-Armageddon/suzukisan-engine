@@ -48,5 +48,5 @@ event_inherited()
   //field music: false
 
 /*desc
-Play sounds or music when the trigger is active!
+Play sounds or music when the trigger is triggered!
 */
