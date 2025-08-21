@@ -1,7 +1,41 @@
 +backgrounds
 	|bgTwisted
+	|bgRibbedPillar
+	|bgMegaman
+	|bgDevRoom
+	|bgGuyCastle
 +tiles
 	|tileDefault
 	|tileMisc
+	|tileBuildings
+	|tileCave
+	|tileMetroid
+	|tileMetroidBlue
+	|tileCastle
 	|tileColor
 	|tilePipes
++decoration
+	|backTreeDark
+	|backTreeLight
+	|backStalactites
+	|backHouse
+	|backFence
+	|backPainting
+	|backGrave
+	|backFenceBroken
+	|backTrees
+	|backTreesSmall
+	|backMountain
+	|backOceanWater
+	|backTreeBig
+	|backPillar
+	|backTorchHolder
+	|backHoleSmall
+	|backHoleLarge
+	|backStainedGlass
+	|backDeadKids
+	|backChozoStatue
+	|backTracks
+	|backCastleSigns
++unorganized
+	|backExample

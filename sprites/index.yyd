@@ -49,3 +49,14 @@ sprTriggerCreate
 sprWater1
 sprWater2
 sprWater3
+sprSpikeWall
+sprSpikePlatform
+sprLightning
+sprCloudLeft
+sprCloudMiddle
+sprCloudRight
+sprCloudPlatform
+sprDecoStar
+sprClosingBarrier
+sprMoon
+sprExample

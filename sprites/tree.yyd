@@ -32,6 +32,9 @@
 	|sprSpikeRight
 	+cherries
 		|sprCherry
+	|sprSpikeWall
+	|sprSpikePlatform
+	|sprLightning
 +gimmicks
 	|sprMovingPlatform
 	|sprVineL
@@ -54,3 +57,13 @@
 	|sprTriggerDelete
 	|sprTriggerCode
 	|sprTriggerActivate
++decoration
+	|sprCloudLeft
+	|sprCloudMiddle
+	|sprCloudRight
+	|sprCloudPlatform
+	|sprDecoStar
+	|sprClosingBarrier
+	|sprMoon
++unorganized
+	|sprExample
