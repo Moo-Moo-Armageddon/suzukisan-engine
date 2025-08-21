@@ -55,3 +55,6 @@
 		|modifierRotate
 		|modifierSound
 		|modifierCreate
+		|modifierDestroy
+		|modifierCode
+		|modifierActivate
