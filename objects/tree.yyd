@@ -55,6 +55,12 @@
 		|modifierRotate
 		|modifierSound
 		|modifierCreate
+    |modifierDestroy
+		|modifierCode
+		|modifierActivate
 +decoration
 +unorganized
 	|exampleObject
+
+		
+

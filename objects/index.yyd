@@ -49,4 +49,10 @@ modifierScale
 modifierRotate
 modifierSound
 modifierCreate
+
 exampleObject
+
+modifierDestroy
+modifierCode
+modifierActivate
+
