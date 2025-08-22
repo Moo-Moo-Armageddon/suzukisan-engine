@@ -8,7 +8,7 @@ with modifierParent {
    triggered = true
   } else {
    triggered = false
-   alarm[0] = delay
+   alarm[0] = seconds_to_frames(delay)
   }
  }
 }
