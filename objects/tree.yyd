@@ -46,6 +46,7 @@
 	|water2
 	|water3
 	|waterCatharsis
+	|encourageBlock
 +triggers
 	|triggerField
 	+modifiers
