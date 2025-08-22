@@ -45,6 +45,7 @@
 	|sprWater1
 	|sprWater2
 	|sprWater3
+	|sprWaterCatharsis
 +trigger
 	|sprTriggerField
 	|sprTriggerButton

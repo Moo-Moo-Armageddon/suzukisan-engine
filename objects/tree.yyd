@@ -45,6 +45,7 @@
 	|water1
 	|water2
 	|water3
+	|waterCatharsis
 +triggers
 	|triggerField
 	+modifiers
