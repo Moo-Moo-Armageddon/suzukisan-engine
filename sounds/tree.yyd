@@ -1,6 +1,35 @@
 +bgm
-	|bgm_guyrock
-	|bgm_ondeath
+	+stage
+		|bgm_guyrock
+		|bgm_megaman
+		|bgm_bioniccommando
+		|bgm_bloodytears
+		|bgm_moontheme
+		|bgm_ghostsngoblins
+		|bgm_metroiditem
+		|bgm_greengreens
+		|bgm_guycastle
+		|bgm_saveselect
+		|bgm_tetris
+		|bgm_tourian
+		|bgm_tourianescape
+		|bgm_ending
+		|bgm_zelda
+	+boss
+		|bgm_battlesm
+		|bgm_guyfight
+		|bgm_contra3
+		|bgm_dracula
+		|bgm_mechabirdo
+		|bgm_megamanboss
+		|bgm_bowser
+		|bgm_motherbrain
+		|bgm_punchout
+	+jingle
+		|bgm_ondeath
+		|bgm_loludied
+		|bgm_mariowand
+		|bgm_mariopaint
 +sfx
 	|snd_jump
 	|snd_djump

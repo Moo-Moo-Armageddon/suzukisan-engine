@@ -55,7 +55,7 @@
 		|modifierRotate
 		|modifierSound
 		|modifierCreate
-    |modifierDestroy
+		|modifierDestroy
 		|modifierCode
 		|modifierActivate
 +decoration
