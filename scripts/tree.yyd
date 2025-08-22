@@ -27,5 +27,6 @@
 	|draw_text_sign
 	|activate_trigger
 	|ease
+	|flash_view
 +unorganized
 	|script_example
