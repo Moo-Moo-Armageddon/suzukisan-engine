@@ -29,6 +29,12 @@ if global.gameStarted and !file_exists("save"+string(global.saveNum)){
 
 //lulz bow
 if global.difficulty = 0 and !instance_exists(playerBow) instance_create(x,y,playerBow)
+
+//autosave on variable condition
+if global.autoSave {
+ global.autoSave = false
+ save_game()
+}
 #define Step_0
 /*"/*'/**//* YYD ACTION
 lib_id=1

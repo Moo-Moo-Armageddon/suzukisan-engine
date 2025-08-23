@@ -12,7 +12,11 @@ lib_id=1
 action_id=603
 applies_to=self
 */
-music_play(music,loops)
+if music = noone {
+ music_stop()
+} else {
+ music_play(music,loops)
+}
 instance_destroy()
 #define Other_4
 /*"/*'/**//* YYD ACTION
