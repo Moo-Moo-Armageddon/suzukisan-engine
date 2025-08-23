@@ -4,6 +4,11 @@
 
 global.debugMode = true
 
+global.debugkeyGodMode = ord("G")
+global.debugkeyTeleport = vk_tab
+global.debugkeyNextRoom = vk_pageup
+global.debugkeyPreviousRoom = vk_pagedown
+
 //game name and starting room
 global.gameName = "The HKH Engine"
 global.startRoom = rSampleA
@@ -23,7 +28,7 @@ if !file_exists("controls.ini") {
 } else {
  controls_load()
 }
-//variable init
+//variable init don't edit
 global.gameStarted = false
 
 global.deaths = 0
@@ -36,3 +41,4 @@ global.currentMusic = noone
 global.autoSave = false
 global.saveMap = ds_map_create()
 global.trigger = ds_list_create()
+global.godMode = false

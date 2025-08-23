@@ -4,6 +4,7 @@
 	|get_key_name
 	|music_play
 	|music_stop
+	|angle_wrap
 +files
 	|save_set
 	|save_get
@@ -27,4 +28,3 @@
 	|draw_text_sign
 	|activate_trigger
 	|ease
-	|angle_wrap

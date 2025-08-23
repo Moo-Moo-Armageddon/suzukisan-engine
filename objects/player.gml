@@ -102,6 +102,13 @@ if distance_to_object(vineRight) < 2 and !place_meeting(x,y+global.gravityDirect
 if collision_point(x,y,block,true,false){
  kill_player()
 }
+
+//god mode alpha
+if global.godMode {
+ image_alpha = 0.5
+} else {
+ image_alpha = 1
+}
 #define Step_1
 /*"/*'/**//* YYD ACTION
 lib_id=1

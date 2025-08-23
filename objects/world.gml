@@ -22,12 +22,42 @@ lib_id=1
 action_id=603
 applies_to=self
 */
-///set room caption
+///set room caption and also debug stuff
 if global.gameStarted {
  global.time += 1/room_speed
  room_caption = global.gameName + " - Deaths: ["+string(global.deaths)+"] - Time: ["+float_to_time(global.time)+"]"
 } else {
  room_caption = global.gameName
+}
+
+//debug
+if !global.debugMode exit
+
+if keyboard_check_pressed(global.debugkeyGodMode) {
+ if global.godMode {
+  global.godMode = false
+ } else {
+  global.godMode = true
+ }
+}
+
+if keyboard_check_pressed(global.debugkeyTeleport) {
+ with player {
+  x = mouse_x
+  y = mouse_y
+  speed = 0
+  djump = true
+ }
+}
+
+if keyboard_check_pressed(global.debugkeyNextRoom) and room != room_last {
+ with player instance_destroy()
+ room_goto_next()
+}
+
+if keyboard_check_pressed(global.debugkeyPreviousRoom) and room != room_first {
+ with player instance_destroy()
+ room_goto_previous()
 }
 #define Other_4
 /*"/*'/**//* YYD ACTION
