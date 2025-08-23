@@ -32,9 +32,26 @@
 	|sprSpikeRight
 	+cherries
 		|sprCherry
+
 	|sprSpikeWall
 	|sprSpikePlatform
 	|sprLightning
+
+		|sprCherryOrange
+		|sprCherryYellow
+		|sprCherryCharteuse
+		|sprCherryGreen
+		|sprCherryEmerald
+		|sprCherryCyan
+		|sprCherryAzure
+		|sprCherryBlue
+		|sprCherryViolet
+		|sprCherryPink
+		|sprCherryMagenta
+		|sprCherryWhite
+		|sprCherryGray
+		|sprCherryBlack
+
 +gimmicks
 	|sprMovingPlatform
 	|sprVineL

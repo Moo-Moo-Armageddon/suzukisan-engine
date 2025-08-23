@@ -25,7 +25,7 @@ if triggered {
  time = seconds_to_frames(seconds)
  if time = 0 time = 1
 
- inst.image_angle = ease(easetime,0,time,insta,targetangle,easing)
+ inst.image_angle = ease(easetime,0,time,insta,angle_wrap(targetangle),easing)
  easetime += 1
  if easetime > time triggered = false
 }
@@ -51,4 +51,4 @@ action_id=603
 applies_to=self
 */
 easetime = 0
-insta = inst.image_angle
+insta = angle_wrap(inst.image_angle)

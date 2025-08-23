@@ -35,6 +35,7 @@
 	|saveHard
 	|saveMedium
 	|saveBlocker
+	|saveClear
 +gimmicks
 	|movingPlatform
 	|vineLeft
@@ -49,6 +50,7 @@
 	|encourageBlock
 +triggers
 	|triggerField
+	|triggerButton
 	+modifiers
 		|modifierParent
 		|modifierMove

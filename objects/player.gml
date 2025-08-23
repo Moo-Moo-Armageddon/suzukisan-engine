@@ -29,6 +29,12 @@ if global.gameStarted and !file_exists("save"+string(global.saveNum)){
 
 //lulz bow
 if global.difficulty = 0 and !instance_exists(playerBow) instance_create(x,y,playerBow)
+
+//autosave on variable condition
+if global.autoSave {
+ global.autoSave = false
+ save_game()
+}
 #define Step_0
 /*"/*'/**//* YYD ACTION
 lib_id=1
@@ -95,6 +101,13 @@ if distance_to_object(vineRight) < 2 and !place_meeting(x,y+global.gravityDirect
 //squish
 if collision_point(x,y,block,true,false){
  kill_player()
+}
+
+//god mode alpha
+if global.godMode {
+ image_alpha = 0.5
+} else {
+ image_alpha = 1
 }
 #define Step_1
 /*"/*'/**//* YYD ACTION

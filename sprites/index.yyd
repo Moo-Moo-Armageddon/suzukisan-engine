@@ -49,6 +49,7 @@ sprTriggerCreate
 sprWater1
 sprWater2
 sprWater3
+
 sprSpikeWall
 sprSpikePlatform
 sprLightning
@@ -62,3 +63,19 @@ sprMoon
 sprExample
 spr1x1White
 sprWaterCatharsis
+
+sprCherryAzure
+sprCherryBlack
+sprCherryBlue
+sprCherryCharteuse
+sprCherryGray
+sprCherryCyan
+sprCherryEmerald
+sprCherryGreen
+sprCherryMagenta
+sprCherryOrange
+sprCherryPink
+sprCherryViolet
+sprCherryWhite
+sprCherryYellow
+

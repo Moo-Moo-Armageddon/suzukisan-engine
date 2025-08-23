@@ -4,6 +4,7 @@
 	|get_key_name
 	|music_play
 	|music_stop
+	|angle_wrap
 +files
 	|save_set
 	|save_get

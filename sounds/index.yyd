@@ -9,6 +9,7 @@ snd_walljump
 snd_blockchange
 snd_spiketrap
 snd_bosshit
+
 bgm_bioniccommando
 bgm_megaman
 bgm_battlesm
@@ -35,3 +36,6 @@ bgm_tourian
 bgm_tourianescape
 bgm_ending
 bgm_zelda
+
+snd_cherry
+
