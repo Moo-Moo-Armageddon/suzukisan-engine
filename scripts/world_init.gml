@@ -10,7 +10,7 @@ global.debugkeyNextRoom = vk_pageup
 global.debugkeyPreviousRoom = vk_pagedown
 
 //game name and starting room
-global.gameName = "The HKH Engine"
+global.gameName = "I wanna be the Engine suzukisan edition"
 global.startRoom = rSampleA
 
 //set gameover

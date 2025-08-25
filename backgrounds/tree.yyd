@@ -1,5 +1,6 @@
 +backgrounds
 	|bgTwisted
+	|bgTitle
 +tiles
 	|tileDefault
 	|tileMisc

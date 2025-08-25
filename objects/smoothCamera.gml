@@ -16,8 +16,8 @@ applies_to=self
 var xto, yto;
 
 if instance_exists(player){
- xto = clamp(player.x-400,0,room_width-800)
- yto = clamp(player.y-304,0,room_height-608)
+ xto = clamp(player.x - view_wview/2,0,room_width - view_wview)
+ yto = clamp(player.y - view_hview/2,0,room_height - view_hview)
 
  camx = lerp(camx,xto,spd)
  camy = lerp(camy,yto,spd)
@@ -36,8 +36,8 @@ applies_to=self
 var xto, yto;
 
 if instance_exists(player){
- xto = clamp(player.x-400,0,room_width-800)
- yto = clamp(player.y-304,0,room_height-608)
+ xto = clamp(player.x - view_wview/2,0,room_width - view_wview)
+ yto = clamp(player.y - view_hview/2,0,room_height - view_hview)
 
  camx = xto
  camy = yto

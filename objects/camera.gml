@@ -5,8 +5,8 @@ action_id=603
 applies_to=self
 */
 if (instance_exists(player)) {
-    view_xview = floor(player.x / 800) * 800
-    view_yview = floor(player.y / 608) * 608
+    view_xview = floor(player.x / view_wview) * view_wview
+    view_yview = floor(player.y / view_hview) * view_hview
 }
 #define Other_4
 /*"/*'/**//* YYD ACTION
@@ -15,6 +15,6 @@ action_id=603
 applies_to=self
 */
 if (instance_exists(player)) {
-    view_xview = floor(player.x / 800) * 800
-    view_yview = floor(player.y / 608) * 608
+    view_xview = floor(player.x / view_wview) * view_wview
+    view_yview = floor(player.y / view_hview) * view_hview
 }
