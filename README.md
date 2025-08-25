@@ -1,8 +1,6 @@
-simple engine for gm8.2
+simple engine for gm8.2\
+
+contains basic gimmicks and a trigger system similar to verve 8.2
 
 todo - \
- . ~~finish trigger system~~\
- . ~~add cherry colors~~\
- . ~~implement debug mode~~\
- . ~~properly rename engine (it's still called hkh engine lolololo)~~\
  . add jtool importing support
