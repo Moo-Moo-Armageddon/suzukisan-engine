@@ -97,6 +97,11 @@ applies_to=self
 */
 ///reset game
 instance_destroy()
-with player instance_destroy()
+//kill all persistent objects (except for the core object, it's immortal)
+with all {
+ if object_index != gm82core_object and persistent {
+  instance_destroy()
+ }
+}
 audio_global_stop(true)
 room_goto(rInit)
