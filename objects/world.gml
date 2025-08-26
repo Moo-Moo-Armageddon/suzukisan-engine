@@ -96,4 +96,7 @@ action_id=603
 applies_to=self
 */
 ///reset game
-game_restart()
+instance_destroy()
+with player instance_destroy()
+audio_global_stop(true)
+room_goto(rInit)
