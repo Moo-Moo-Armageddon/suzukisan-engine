@@ -103,5 +103,5 @@ with all {
   instance_destroy()
  }
 }
-audio_global_stop(true)
+audio_all_stop()
 room_goto(rInit)
