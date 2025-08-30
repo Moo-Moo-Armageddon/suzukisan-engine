@@ -34,6 +34,23 @@ switch color {
  case "white": sprite_index = sprCherryWhite break;
  case "gray": sprite_index = sprCherryGray break;
  case "black": sprite_index = sprCherryBlack break;
+ case "random":
+  sprite_index = choose(
+  sprCherryOrange,
+  sprCherryYellow,
+  sprCherryCharteuse,
+  sprCherryGreen,
+  sprCherryEmerald,
+  sprCherryCyan,
+  sprCherryAzure,
+  sprCherryBlue,
+  sprCherryViolet,
+  sprCherryPink,
+  sprCherryMagenta,
+  sprCherryWhite,
+  sprCherryGray,
+  sprCherryBlack)
+ break;
 }
 #define Other_0
 /*"/*'/**//* YYD ACTION
@@ -48,4 +65,4 @@ lib_id=1
 action_id=603
 applies_to=self
 */
-//field color: enum("red","orange","yellow","charteuse","green","emerald","cyan","azure","blue","violet","pink","magenta","white","gray","black")
+//field color: enum("red","orange","yellow","charteuse","green","emerald","cyan","azure","blue","violet","pink","magenta","white","gray","black","random")

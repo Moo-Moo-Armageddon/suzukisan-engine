@@ -1,12 +1,12 @@
 +world
 	|sprBlock
 	|sprWorld
-	|sprMusicPlayer
 	|sprKillerParent
 	|sprRoomChanger
 	|sprWarp
 	|sprControlButton
 	|sprCamera
+	|sprMusicPlayer
 	|sprGameOver
 	|sprSave
 	|sprWussSave
@@ -65,6 +65,7 @@
 	|sprTriggerPath
 	|sprTriggerScale
 	|sprTriggerRotate
+	|sprTriggerSound
 	|sprTriggerCreate
 	|sprTriggerDelete
 	|sprTriggerCode

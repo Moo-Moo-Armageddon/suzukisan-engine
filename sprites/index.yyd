@@ -9,7 +9,7 @@ sprWorld
 sprPlayerBullet
 sprPlayerStart
 sprKillerParent
-sprMusicPlayer
+sprTriggerSound
 sprCherry
 sprWarp
 sprRoomChanger
@@ -64,3 +64,4 @@ sprCherryViolet
 sprCherryWhite
 sprCherryYellow
 sprTriggerPath
+sprMusicPlayer
