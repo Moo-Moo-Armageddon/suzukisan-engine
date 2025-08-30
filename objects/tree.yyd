@@ -53,6 +53,7 @@
 		|modifierParent
 		|modifierMove
 		|modifierSpeed
+		|modifierPath
 		|modifierScale
 		|modifierRotate
 		|modifierSound
