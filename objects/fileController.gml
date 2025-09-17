@@ -61,9 +61,9 @@ for(i=0;i<3;i+=1) {
 
   ds_map_read(b,a)
 
-  draw_text(((i*240) + 160),224,"Difficulty: " + get_difficulty_name(ds_map_find_value(b,"Difficulty")))
-  draw_text(((i*240) + 160),256,"Time: " + float_to_time(ds_map_find_value(b,"Time")))
-  draw_text(((i*240) + 160),288,"Deaths: " + string(ds_map_find_value(b,"Deaths")))
+  draw_text(((i*240) + 160),224,"Difficulty:#" + get_difficulty_name(ds_map_find_value(b,"Difficulty")))
+  draw_text(((i*240) + 160),272,"Time: " + float_to_time(ds_map_find_value(b,"Time")))
+  draw_text(((i*240) + 160),304,"Deaths: " + string(ds_map_find_value(b,"Deaths")))
 
   if real(ds_map_get(b,"Clear")) {
    draw_set_font(fnt24)
