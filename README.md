@@ -7,5 +7,5 @@ assets from nekoron, yoyoyo legacy edition, renex^2, verve 8.2, and lemon (if th
 **NOTE:** the default font is Nekoron.ttf, which is included so install it if you want
 
 todo - \
- . adding jtool importing support\
+ . ~~adding jtool importing support~~\
  . adding iwpo support
