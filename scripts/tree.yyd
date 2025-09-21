@@ -5,6 +5,7 @@
 	|music_play
 	|music_stop
 	|angle_wrap
+	|gm82room_jtool_table
 +files
 	|save_set
 	|save_get

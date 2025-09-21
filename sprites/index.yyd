@@ -65,3 +65,9 @@ sprCherryWhite
 sprCherryYellow
 sprTriggerPath
 sprMusicPlayer
+sprMiniBlock
+sprKillerBlock
+sprMiniSpikeUp
+sprMiniSpikeDown
+sprMiniSpikeLeft
+sprMiniSpikeRight

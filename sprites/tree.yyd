@@ -14,6 +14,7 @@
 	|sprSaveBlocker
 	|sprPlatform
 	|sprSign
+	|sprMiniBlock
 +player
 	|sprPlayerStart
 	|sprPlayerIdle
@@ -30,6 +31,7 @@
 	|sprSpikeDown
 	|sprSpikeLeft
 	|sprSpikeRight
+	|sprKillerBlock
 	+cherries
 		|sprCherry
 		|sprCherryOrange
@@ -46,6 +48,11 @@
 		|sprCherryWhite
 		|sprCherryGray
 		|sprCherryBlack
+	+mini spikes
+		|sprMiniSpikeUp
+		|sprMiniSpikeDown
+		|sprMiniSpikeLeft
+		|sprMiniSpikeRight
 +gimmicks
 	|sprMovingPlatform
 	|sprVineL

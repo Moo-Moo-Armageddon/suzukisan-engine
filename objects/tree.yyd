@@ -14,6 +14,7 @@
 	|musicPlayer
 	|platform
 	|kanban
+	|miniBlock
 +killers
 	|killerParent
 	|cherry
@@ -21,6 +22,12 @@
 	|spikeDown
 	|spikeLeft
 	|spikeRight
+	|killerBlock
+	+mini spikes
+		|miniSpikeUp
+		|miniSpikeDown
+		|miniSpikeLeft
+		|miniSpikeRight
 +menu
 	|titleController
 	|fileController

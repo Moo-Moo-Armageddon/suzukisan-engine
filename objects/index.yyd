@@ -55,3 +55,9 @@ modifierActivate
 triggerButton
 saveClear
 modifierPath
+miniBlock
+killerBlock
+miniSpikeUp
+miniSpikeDown
+miniSpikeLeft
+miniSpikeRight
