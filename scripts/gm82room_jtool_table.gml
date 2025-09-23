@@ -2,7 +2,7 @@
     This script contains a table that's used by the GM 8.2 room editor
     to import JTool maps into a compatible engine.
 *//* 
-    engine=renex
+    engine=suzukisan
     
     1=block
     2=miniBlock
