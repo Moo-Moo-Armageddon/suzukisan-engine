@@ -65,6 +65,7 @@
 	|sprWater3
 +trigger
 	|sprTriggerField
+	|sprTriggerGroup
 	|sprTriggerButton
 	|sprTriggerModifyer
 	|sprTriggerMove
