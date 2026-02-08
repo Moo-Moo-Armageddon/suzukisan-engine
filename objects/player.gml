@@ -169,18 +169,16 @@ if !frozen {
   instance_create(x,y,playerBullet)
  }
 
+ //kill yourself
+ if keyboard_check_pressed(global.suicideKey) {
+  kill_player()
+ }
 }
 
 //limit vspeed
 var v;
 v = vspeed*global.gravityDirection
 if v > maxvspeed vspeed = maxvspeed*sign(vspeed)
-
-
-//kill yourself
-if keyboard_check_pressed(global.suicideKey) {
- kill_player()
-}
 
 //change gravity
 gravity = grav*global.gravityDirection

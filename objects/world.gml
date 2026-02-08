@@ -81,6 +81,12 @@ audio_music_resume()
 if global.playGameOverMusic {
  audio_stop(global.gameOverMusic)
 }
+
+//clear trigger list
+ds_list_clear(global.trigger)
+
+//set framerate, just in case
+room_speed = 50
 #define KeyPress_82
 /*"/*'/**//* YYD ACTION
 lib_id=1

@@ -1,6 +1,11 @@
 //activate_trigger(trg)
 OTHER_TRIGGER = argument0
 
+if ds_list_find_index(global.trigger,OTHER_TRIGGER) = -1 {
+  ds_list_add(global.trigger,OTHER_TRIGGER)
+}
+
+
 with modifierParent {
  if trg = other.OTHER_TRIGGER {
 
