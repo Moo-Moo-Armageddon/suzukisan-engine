@@ -7,6 +7,7 @@ applies_to=self
 warpX = -1
 warpY = -1
 roomTo = noone
+gravity_flipped = false
 autoSave = false
 #define Collision_player
 /*"/*'/**//* YYD ACTION
@@ -14,6 +15,12 @@ lib_id=1
 action_id=603
 applies_to=self
 */
+if gravity_flipped {
+ flip_gravity(-1)
+} else {
+ flip_gravity(1)
+}
+
 if warpX = -1 and warpY = -1 {
  if autoSave global.autoSave = true
  with other instance_destroy()
@@ -31,5 +38,6 @@ applies_to=self
 */
 //field roomTo: room
 //field autoSave: false
+//field gravity_flipped: false
 //field warpX: number
 //field warpY: number
