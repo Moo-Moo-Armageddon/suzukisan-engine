@@ -36,6 +36,7 @@ switch color {
  case "black": sprite_index = sprCherryBlack break;
  case "random":
   sprite_index = choose(
+  sprCherry,
   sprCherryOrange,
   sprCherryYellow,
   sprCherryCharteuse,
